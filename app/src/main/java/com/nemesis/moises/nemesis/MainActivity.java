@@ -60,7 +60,7 @@ public class MainActivity extends ActionBarActivity {
 
                 } else {
 
-                    // aux.add(text.charAt(i));
+                    aux.add(text.charAt(i));
 
                 }
             }
