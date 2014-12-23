@@ -51,6 +51,7 @@ public class MainActivity extends ActionBarActivity {
         String result = "";
         Queue aux = new LinkedList();
         Stack pila = new Stack();
+
         if (pila.isEmpty() && aux.isEmpty())
             for (int i = 0; i < text.length(); i++)   //letras pares se insertan al comienzo y las impares al final
             {
@@ -77,7 +78,6 @@ public class MainActivity extends ActionBarActivity {
 
         aux.clear();
         pila.clear();
-
 
         return result;
     }
