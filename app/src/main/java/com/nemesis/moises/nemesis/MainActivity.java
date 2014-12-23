@@ -67,7 +67,7 @@ public class MainActivity extends ActionBarActivity {
 
         for (int i = 0; i < text.length(); i++) {
             if (i % 2 == 0) {
-                result += pila.pop();
+                result += pila.pop();  //la inversa de como se introducen las letras
             } else {
                 result += aux.remove();
             }
