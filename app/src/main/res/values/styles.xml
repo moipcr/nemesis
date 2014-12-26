@@ -1,0 +1,12 @@
+
+<resources>
+    <color name="red">#E53935</color>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/red</item>
+
+    </style>
+
+
+
+</resources>
